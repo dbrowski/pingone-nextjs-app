@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>Get started by with PingOne and NextJS</p>
+        <p>Get started with PingOne and NextJS</p>
         <div>
           <div style={{ paddingBottom: "1vh" }}>By</div>
           <a
