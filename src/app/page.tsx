@@ -7,8 +7,6 @@ const scopes = "";
 const responseType = "code";
 const grantType = "authorization_code";
 
-
-
 export default function Home() {
   return (
     <main className={styles.main}>
@@ -44,12 +42,6 @@ export default function Home() {
       </div>
 
       <div>
-        <form>
-          <input>
-          
-          </input>
-        </form>
-        <pre>environment id: </pre>
         <a
           href="https://apidocs.pingidentity.com/pingone/main/v1/api/#getting-started-with-the-pingone-apis"
           target="_blank"
