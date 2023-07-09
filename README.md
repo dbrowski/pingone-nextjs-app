@@ -1,10 +1,16 @@
+# Get Started with PingOne and React (built with Next.js)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+First, update the config values in `src/app/page.tsx` using values from your PingOne environment and app connection.
+
+Then, run the development server:
 
 ```bash
+npx next
+# or
 npm run dev
 # or
 yarn dev
