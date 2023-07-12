@@ -25,7 +25,7 @@ type TokenResponse = {
   token_type: string;
 };
 
-export default function Home() {
+export const Home = () => {
   const [aT, setAT] = useState("");
   const [idT, setIDT] = useState("");
 
@@ -244,4 +244,6 @@ export default function Home() {
       </div>
     </main>
   );
-}
+};
+
+export default Home;
